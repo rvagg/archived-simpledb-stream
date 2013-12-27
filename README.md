@@ -2,6 +2,11 @@
 
 **Stream the contents of a SimpleDB domain**
 
+[![Build
+Status](https://secure.travis-ci.org/rvagg/bl.png)](http://travis-ci.org/rvagg/bl)
+
+[![NPM](https://nodei.co/npm/simpledb-stream.png?compact=true)](https://nodei.co/npm/simpledb-stream/)
+
 Requires a configured instance of an [aws-sdk](https://github.com/aws/aws-sdk-js) `SimpleDB` and you get back a Node Streams2 object (based on [through2](https://github.com/rvagg/through2)).
 
 ## Example

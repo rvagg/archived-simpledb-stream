@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- 0.8
+- '0.10'
+- '0.11'
+branches:
+  only:
+  - master
+notifications:
+  email:
+  - rod@vagg.org
+script: npm test
+env:
+  global:
+    secure: TkradZJgDSS8TVXp6D16SCgmvXMu4PGN44f2v4yhqvO9NWSUByFEhAf8ifng1of3niY0b1ftaylWkFSDZLI00KYrDn9HWSHBg2YatDiw/dKBmfEWk+vEagCjA7kArJo0eNSNq4xazKtMJwRA4XGugAqjIRcrA1NJwevctZ4Yrbo=
