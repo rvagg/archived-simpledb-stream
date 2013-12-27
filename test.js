@@ -49,8 +49,8 @@ test('setup (populate domain)', function (t) {
     var batchSize = 25
 
     ;(function next (start) {
-      if (start >= testData.length)
-        return t.end()
+      if (start >= testData.length) 
+        return setTimeout(t.end.bind(t), 500) // wait for consistency?
 
       simpledb.batchPutAttributes(
           { DomainName: testDomain, Items: testData.slice(start, start + batchSize) }
@@ -82,7 +82,6 @@ test('test streaming with just domain arg', function (t) {
       data.push(_data)
     })
     .on('end', function () {
-      console.log(JSON.stringify(data, null, 2))
       t.deepEqual(data, niceTestData, 'got complete, correct data!')
       t.end()
     })
