@@ -1,0 +1,23 @@
+{
+  "name": "simpledb-stream",
+  "version": "0.0.0",
+  "description": "Stream the contents of a SimpleDB domain",
+  "main": "simpledb-stream.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": "https://github.com/rvagg/simpledb-stream.git",
+  "author": "Rod Vagg <r@va.gg>",
+  "license": "MIT",
+  "dependencies": {
+    "through2": "~0.2.3"
+  },
+  "devDependencies": {
+    "tape": "~2.3.2",
+    "node-uuid": "~1.4.1",
+    "aws-sdk": "~2.0.0-rc4"
+  },
+  "keywords": [
+    "simpledb", "aws", "stream", "whoa dude, whatcha doin' there?"
+  ]
+}
