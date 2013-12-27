@@ -4,7 +4,7 @@ const AWS            = require('aws-sdk')
     , crypto         = require('crypto')
     , simpledbStream = require('./')
     , awsConfig      = require('./test-aws-config.js')
-    , testDomain     = 'simpledb-stream-test-domain'
+    , testDomain     = 'simpledb-stream-test-domain-node_' + process.version.replace(/\.\d+$/,'')
 
     , testData       = (function () {
         var data  = []
