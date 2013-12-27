@@ -12,4 +12,5 @@ notifications:
 script: npm test
 env:
   global:
-  - secure: "jreO7ejtYMSnUN3N/TTXsciqDdr6To3BtHf8BSbm6yPifVmJ0xDp0+2pprsGkP9vWNeurM1adBj4GReTZ0SRrfcHU0jL/X+l2CfjCnYrwd40SI84/DiTfY/pSKKT7ZA1ndVmwy+WSR15UOBs9zq2xbG9iED3nIaqRaPfGSL8hNk="
+    secure: "URiIkqJ8TAr/nkv5RxYd0kaZoIXl0VJE7JONW48sEk4ifvnYFj6k9gUL9f3VnmgKEqdd6Td69T/AC68q7vfF7EaSv1AZVgCxquNcrQHmd+wOO1eYZY71cJvLHLFhRiXaMT/tfqlau9IBYOK6/EWel7zwoQ2agmRPSh7SRbEBIno="
+
